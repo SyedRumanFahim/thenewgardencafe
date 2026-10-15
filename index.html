@@ -32,6 +32,13 @@
 			height: 80px;
 			width: 140px;
 		}
+		.menu-frame{
+			width: 100%;
+			height: 80vh;
+			min-height: 560px;
+			border: 0;
+			background: #fff;
+		}
 	</style>
    <!-- Google tag (gtag.js) -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-35R0R5HXHJ"></script>
@@ -112,11 +119,7 @@
               <h1 class="mb-4">We cooked your desired Delicious Recipe</h1>
               <p class="mb-4 mb-md-5">The New Garden Cafe offers more than just a meal—it promises an experience.we blend the best of classic café favorites with innovative dishes that cater to today's palate.</p>
               <p>
-				<a href="https://drive.google.com/file/d/1t-VXNxmYGUDfFOdit28IIFTajlobh48Y/view?usp=sharing" target="_blank" class="btn btn-primary p-3 px-xl-4 py-xl-3">Breakfast Menu</a>
-				<a href="https://drive.google.com/file/d/1A1ffTbIbJkAB_KR8nuOxMAAW7TT-pC6p/view?usp=sharing" target="_blank" class="btn btn-primary p-3 px-xl-4 py-xl-3">Lunch & Dinner Menu</a>
-				<a href="https://drive.google.com/file/d/1oOYzlS2iwvLAVCco19egNDg0bApKIyL3/view?usp=sharing" target="_blank" class="btn btn-primary p-3 px-xl-4 py-xl-3">Drinks Menu</a>
-				
-				 
+				<a href="menu/garden-cafe.pdf" target="_blank" class="btn btn-primary p-3 px-xl-4 py-xl-3">Browse Menu</a>
 			</p>
             </div>
 
@@ -183,37 +186,17 @@
             <h2 class="mb-4">Our Menu</h2>
           </div>
         </div>
-    		<div class="row">
-				<div class="col-md-4">
+    		<div class="row justify-content-center">
+				<div class="col-lg-10">
 					<div class="card">
-						<img src="./images/drinks.jpeg" alt="Menu 1" class="card-img-top">
-						<div class="card-body">
-							<h5 class="card-title">Drinks</h5>
-							<a href="https://drive.google.com/file/d/1oOYzlS2iwvLAVCco19egNDg0bApKIyL3/view?usp=sharing" target="_blank" class="btn btn-primary">View Menu</a>
+						<div class="card-body text-center">
+							<h5 class="card-title">Garden Cafe Menu</h5>
+							<p>Breakfast, lunch, dinner and drinks in one menu.</p>
+							<p><a href="menu/garden-cafe.pdf" target="_blank" class="btn btn-primary">Browse Menu</a></p>
+							<object data="menu/garden-cafe.pdf" type="application/pdf" class="menu-frame">
+								<p><a href="menu/garden-cafe.pdf" target="_blank">Browse Menu</a></p>
+							</object>
 						</div>
-					</div>
-				</div>
-		
-				<!-- Menu 2 -->
-				<div class="col-md-4">
-					<div class="card">
-						<img src="./images/breakfast.jpeg" alt="Menu 2" class="card-img-top">
-						<div class="card-body">
-							<h5 class="card-title">Breakfast</h5>
-							<a href="https://drive.google.com/file/d/1t-VXNxmYGUDfFOdit28IIFTajlobh48Y/view?usp=sharing" target="_blank"  class="btn btn-primary">View Menu</a>
-						</div>
-					</div>
-				</div>
-		
-				<!-- Menu 3 -->
-				<div class="col-md-4">
-					<div class="card">
-						<img src="./images/lunch&dinner.jpeg" alt="Menu 3" class="card-img-top">
-						<div class="card-body">
-							<h5 class="card-title">Lunch & Dinner</h5>
-							<a href="https://drive.google.com/file/d/1A1ffTbIbJkAB_KR8nuOxMAAW7TT-pC6p/view?usp=sharing" target="_blank" class="btn btn-primary">View Menu</a>
-						</div>
-						
 					</div>
 				</div>
         	</div>
@@ -494,7 +477,8 @@
 
 
 
-    <section class="ftco-menu">
+    <!--
+<section class="ftco-menu">
     	<div class="container-fluid">
     		<div class="row d-md-flex">
 	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
@@ -509,7 +493,7 @@
 
 		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Lunch & Dinner</a>
 
-		              <!-- <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Dinner</a> -->
+		               <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Dinner</a> 
 		            </div>
 		          </div>
 		          <div class="col-md-12 d-flex align-items-center">
@@ -525,7 +509,7 @@
 		              					<h3>Set Breakfast</h3>
 		              					<p>All set breakfast comes with a free hot drink</p>
 		              					<p class="price"><span>6.00 - 9.00</span></p>
-		              					<!-- <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p> -->
+		              					 <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p> 
 		              				</div>
 		              			</div>
 		              		</div>
@@ -629,7 +613,7 @@
 		              	</div>
 		              </div>
 
-		              <!-- <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+		               <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
 		                <div class="row">
 		              		<div class="col-md-4 text-center">
 		              			<div class="menu-wrap">
@@ -665,7 +649,7 @@
 		              			</div>
 		              		</div>
 		              	</div>
-		              </div> -->
+		              </div> 
 		            </div>
 		          </div>
 		        </div>
@@ -673,6 +657,7 @@
 		    </div>
     	</div>
     </section>
+-->
 	<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(images/bg_2.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
   <div class="container">
@@ -683,7 +668,7 @@
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><span class="flaticon-chef"></span></div>
-					  <strong class="number" data-number="26">0</strong>
+					  <strong class="number" data-number="37">0</strong>
 					  <span>Drink Item</span>
 				  </div>
 				</div>
@@ -692,7 +677,7 @@
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><span class="flaticon-chef"></span></div>
-					  <strong class="number" data-number="54">0</strong>
+					  <strong class="number" data-number="48">0</strong>
 					  <span>Lunch & Dinner Item</span>
 				  </div>
 				</div>
@@ -701,7 +686,7 @@
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><span class="flaticon-chef"></span></div>
-					  <strong class="number" data-number="39">0</strong>
+					  <strong class="number" data-number="26">0</strong>
 					  <span>Breakfast Item</span>
 				  </div>
 				</div>
@@ -711,7 +696,7 @@
 				<div class="block-18 text-center">
 				  <div class="text">
 					  <div class="icon"><span class="flaticon-laugh"></span></div>
-					  <strong class="number" data-number="10567">0</strong>
+					  <strong class="number" data-number="126800">0</strong>
 					  <span>Happy Customer</span>
 				  </div>
 				</div>
